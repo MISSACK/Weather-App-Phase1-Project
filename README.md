@@ -20,7 +20,8 @@ A simple weather application built with HTML, CSS, and JavaScript that displays 
 If any help or concerns are needed to be confirmed, please leave a review in the comment section and don't forget to leave a like ;), it is easier to view good content received. Also confirm you have followed the right link to take you to the right page.
 
 ```shell
-please see the comment section and leave a comment ```
+please see the comment section and leave a comment 
+```
 
 ## Author
 MUSA ISSACK
