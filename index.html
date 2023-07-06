@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="card">
+        <!-- search bar for city weather -->
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button>Search</button>
+        </div>
+        <!-- weather description -->
+        <div class="weather">
+            <h2 class="city">Weather in <span id="city-name">Nairobi</span></h2>
+            <h1>51°C</h1>
+            <div class="flex">
+                <img src="" alt="" class="icon" id="weather-icon"/> 
+                <div class="description" id="weather-description">Cloudy</div>
+            </div>
+            <div class="humidity" id="humidity">Humidity: 60%</div>
+            <div class="wind" id="wind-speed">Wind speed: 6.2 km/h</div>
+        </div>
+        <!-- like and dislike buttons -->
+        <div class="like-dislike">
+            <button class="like">Like</button>
+            <button class="dislike">Dislike</button>
+        </div>
+        <!-- creating a comment section with submit -->
+        <form id="comment-form">
+            <textarea id="comment-text" placeholder="Write a comment"></textarea>
+            <button type="submit">Submit</button>
+       </form>
+       <div id="comments"></div>
+   </div>
+   
+    <script src="./script.js"></script>
+</body>
+</html>
