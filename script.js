@@ -11,4 +11,14 @@ let weather = {
             .then((response) => response.json()) // Convert response to JSON
             .then((data) => this.displayWeather(data)); // Pass the data to the displayWeather function
     }
+    // getting necessary data from API response
+    displayWeather: function(data) {
+        const { name } = data;
+        const { icon, description } = data.weather[0];
+        const { temp, humidity } = data.main;
+        const { speed } = data.wind;
+        // Display temperature with one decimal point
+        const formattedTemp = temp.toFixed(1);
+    }
+
 }
