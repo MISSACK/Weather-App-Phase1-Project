@@ -31,7 +31,7 @@ let weather = {
     }
         // Get the user input from the search bar and fetch weather data
     search: function () {
-            this.fetchWeather(document.querySelector(".search-input").value);
+        this.fetchWeather(document.querySelector(".search-input").value);
     }      
 };
 
@@ -40,9 +40,14 @@ document.querySelector(".search-button").addEventListener("click", function () {
   weather.search();
 });
 
-// Event listener for Enter key press in search bar
+// Event listener for enter key press in search bar
 document.querySelector(".search-input").addEventListener("keyup", function(event) {
   if (event.key === "Enter") {
     weather.search();
   }
 });
+
+// Fetch weather data for the initial city (Nairobi)
+weather.fetchWeather("Nairobi");
+
+
