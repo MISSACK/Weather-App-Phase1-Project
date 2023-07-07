@@ -3,18 +3,17 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 120%;
+    font-family: sans-serif;
 }
 
 .card {
-    background: #000000d0;
+    background-color:deepskyblue;
     color: white;
-    padding: 2em;
+    padding: 32px;
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
-    margin: 1em;
+    margin: 16px;
     position: relative;
 }
 
@@ -22,11 +21,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 
 button.search-button {
-    margin: 0.5em;
+    margin: 8px;
     border-radius: 50%;
     border: none;
     height: 44px;
@@ -41,7 +40,7 @@ button.search-button {
 input.search-input {
     border: none;
     outline: none;
-    padding: 0.4em 1em;
+    padding: 6px 16px;
     border-radius: 24px;
     background: #7c7c7c2b;
     color: white;
@@ -56,7 +55,7 @@ button.search-button:hover {
 
 h1.temperature {
     margin: 0;
-    margin-bottom: 0.4em;
+    margin-bottom: 6.4px;
 }
 
 .flex {
@@ -87,7 +86,7 @@ h1.temperature {
 .like-dislike {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 
 #comment-form {
@@ -101,17 +100,17 @@ h1.temperature {
     width: 100%;
     height: 100px;
     color: black;
-    margin-bottom: 0.5em;
+    margin-bottom: 8px;
 }
 
 #comments-container {
-    margin-top: 1em;
+    margin-top: 16px;
 }
 
 .comment {
     background-color: #7c7c7c2b;
     color: white;
-    padding: 0.5em;
-    margin-bottom: 0.5em;
+    padding: 8px;
+    margin-bottom: 8px;
     border-radius: 5px;
 }
