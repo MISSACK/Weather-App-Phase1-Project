@@ -78,7 +78,7 @@ let weather = {
     }
   });
   
-  // Submit comment 
+  // Submit comment form
   document.getElementById('comment-form').addEventListener('submit', function (event) {
     event.preventDefault();
   
