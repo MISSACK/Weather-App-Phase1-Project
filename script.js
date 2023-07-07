@@ -34,3 +34,8 @@ let weather = {
             this.fetchWeather(document.querySelector(".search-input").value);
     }      
 };
+
+// Event listener for search button click
+document.querySelector(".search-button").addEventListener("click", function () {
+  weather.search();
+});
