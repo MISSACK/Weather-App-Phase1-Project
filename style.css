@@ -74,7 +74,7 @@ h1.temperature {
 .like-dislike {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 #comment-form {
