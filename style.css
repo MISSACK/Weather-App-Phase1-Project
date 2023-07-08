@@ -31,7 +31,7 @@ button.search-button {
     height: 44px;
     width: 44px;
     outline: none;
-    background: #7c7c7c2b;
+    background-color:#1B6B93;
     color: white;
     cursor: pointer;
     transition: 0.2s ease-in-out;
