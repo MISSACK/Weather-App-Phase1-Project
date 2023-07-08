@@ -1,6 +1,6 @@
 # Weather App
 
-A simple weather application built with HTML, CSS, and JavaScript that displays the current weather information for a given city.
+A simple weather-forecast application built with HTML, CSS, and JavaScript that displays the current weather information for a given city.
 
 ## Features
 
@@ -17,11 +17,14 @@ A simple weather application built with HTML, CSS, and JavaScript that displays 
    git clone https://github.com/MISSACK/Weather-App-Phase1-Project
 
 ## Help
-If any help or concerns are needed to be confirmed, please leave a review in the comment section and don't forget to leave a like ;), it is easier to view good content received. Also confirm you have followed the right link to take you to the right page.
+If any help or concerns are needed to be confirmed, please leave a review in the comment section and don't forget to leave a like.
 
 ```shell
 please see the comment section and leave a comment 
 ```
+
+## License
+The project in licensed under Mit.
 
 ## Author
 MUSA ISSACK
