@@ -54,16 +54,10 @@ button.search-button:hover {
 
 h1.temperature {
     margin: 0;
-    margin-bottom: 6.4px;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
+    margin-bottom: 8px;
 }
 
 .description {
-    text-transform: capitalize;
     margin-left: 8px;
 }
 
