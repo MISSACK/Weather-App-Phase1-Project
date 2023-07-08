@@ -72,6 +72,7 @@ h1.temperature {
 }
 
 .like-dislike {
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
@@ -96,7 +97,7 @@ h1.temperature {
 }
 
 .comment {
-    background-color: #7c7c7c2b;
+    background-color: #001C30;
     color: white;
     padding: 8px;
     margin-bottom: 8px;
